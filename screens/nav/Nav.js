@@ -22,6 +22,8 @@ RootNavigation.navigate('Search', {target})
  <TouchableOpacity onPress={()=>{target('alquiler')}} style={style.button_nav}><Text style={style.button_nav_text}>Alquileres</Text></TouchableOpacity>
     
  <TouchableOpacity onPress={()=>{target('inmobil')}} style={style.button_nav}><Text style={style.button_nav_text}>Inmuebles</Text></TouchableOpacity>
+
+ <TouchableOpacity onPress={()=>{target('other')}} style={style.button_nav}><Text style={style.button_nav_text}>Other</Text></TouchableOpacity>
  </View>
 
 <TouchableOpacity onPress={()=>{target('filter')}}>
