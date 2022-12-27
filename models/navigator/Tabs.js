@@ -17,7 +17,7 @@ return (
 <Tab.Screen name='Article' component={Article}/>
 <Tab.Screen name='Home' component={Home}/>
 <Tab.Screen name='Search' component={Search}/>
-<Tab.Screen name='Welcome' component={Welcome}/>
+
 
 </Tab.Navigator>
 

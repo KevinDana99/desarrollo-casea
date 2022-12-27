@@ -8,12 +8,9 @@ import Search from '../../screens/search/Search';
 import Article from '../../screens/article/Article';
 
 import * as RootNavigation from './RootNavigation';
-import Welcome from '../../screens/welcome/Welcome';
-import style from '../../screens/welcome/Welcome.styles';
+
 const Stack = createStackNavigator();
 let busqueda = 0;
-
-//<TouchableOpacity style={{width: 100,height: 40, backgroundColor: 'white', borderRadius : 10, justifyContent: 'center', padding: '2%', textAlign: 'center'}}><Text style={{...style.button_text, fontSize : 15}}>Iniciar sesion</Text></TouchableOpacity>
 
 export default function MyStack(){
 
@@ -71,7 +68,6 @@ return (
 <Stack.Screen  options={headerSettingHome} name="Casea" component={Home} />
 <Stack.Screen  options={headerSettingSearch} name="Search" component={Search}/>
 <Stack.Screen  options={headerSettingArticle} name="Article" component={Article}/>
-<Stack.Screen  options={{...headerSettingArticle,headerStyle: {backgroundColor : '#a900f2fd'}, title: '', headerRight: false}} name="Welcome" component={Welcome}/>
 
 </Stack.Navigator>
 
